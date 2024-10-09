@@ -1,6 +1,6 @@
 replacers:
-  - search: 'PC-'
-    replace: 'https://jira.ftscc.net/browse/PC-'
+  - search: '/PC-(\d+)/g'
+    replace: 'https://jira.ftscc.net/browse/PC-$1'
 
 template: |
   ## Whats changed
