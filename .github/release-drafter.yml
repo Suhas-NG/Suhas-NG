@@ -3,9 +3,12 @@ replacers:
     replace: 'https://jira.ftscc.net/browse/PC-'
 
 template: |
-  ##Whats changed##
+  ## Whats changed
     
   $CHANGES
   
   ## Impact
+
+  `What functionality is impacted with this release?  How does this change how a user uses the service?`
+  
   
