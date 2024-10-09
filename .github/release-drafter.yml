@@ -1,7 +1,32 @@
 replacers:
-  - search: 'PC-'
-    replace: 'https://jira.ftscc.net/browse/PC-'
+  - search: '/PC-(\d*$/'
+    replace: '[PC-$1](https://jira.ftscc.net/browse/PC-$1)'
 
 template: |
-  ## What's Changed
+**Changes**
+
   $CHANGES
+  
+**Impact**
+
+`What functionality is impacted with this release?  How does this change how a user uses the service?`
+
+**Level of Risk** `low / normal / high`
+
+**Tested?** `yes / no`
+
+**Screenshot of Fortify Scan Results**
+
+`Include a screenshot of the results from the latest Fortify scan.  We should not be shipping anything that has critical or high issues (with some exceptions).`
+
+**Expected Deployment Date** `some date in the near future`
+
+**Deployment Plan**
+
+`How are these changes rolled out?  Most of the time we can get by with the following line, but there might be additional work like config or database changes.  Try to be explicit if there are steps beyond a basic deployment.`
+
+Update version of service in deployment configurations and deploy.
+
+**Backout Plan**
+
+Should these changes need to be reverted, deploy the version $PREVIOUS_TAG.
