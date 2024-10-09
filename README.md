@@ -2,6 +2,8 @@
 - 👀 I’m interested in embedded systems 
 - 💞️ I’m looking to collaborate on embedded linux open source projects
 - 📫 How to reach me suhasngsng@gmail.com
+- woahaa
+- one more change 
 
 <!---
 Suhas-NG/Suhas-NG is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
