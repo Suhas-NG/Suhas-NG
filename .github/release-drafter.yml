@@ -1,6 +1,6 @@
 replacers:
   - search: '/PC-(\d+)/g'
-    replace: '[PC-$1](https://jira.ftscc.net/browse/PC-$1)'
+    replace: '[PC-$1](https://jira.ftscc.net/browse/PC-$1) '
 
 template: |
   ## Whats changed
@@ -12,10 +12,10 @@ template: |
   `What functionality is impacted with this release?  How does this change how a user uses the service?`
   
   ## Level of Risk 
-   `low / normal / high`
+   `normal`
 
   ## Tested?** 
-   `yes / no`
+   `yes`
 
   ## Screenshot of Fortify Scan Results
 
@@ -34,4 +34,4 @@ template: |
 
   `How do we roll back these changes?  Most of the time we can get by with the following line, but that may not be sufficient if there were also config or database changes.  If there are, try to be explicit.`
 
-  Should these changes need to be reverted, deploy the previous release of the service.
+  Should these changes need to be reverted, deploy the previous release of the service $PREVIOUS_TAG .
