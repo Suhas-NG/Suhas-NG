@@ -1,6 +1,8 @@
 replacers:
   - search: '/PC-(\d+)/g'
     replace: '[PC-$1](https://jira.ftscc.net/browse/PC-$1) '
+  - search: '/ER-(\d+)/g'
+    replace: '[ER-$1](https://jira.ftscc.net/browse/PC-$1) '
 
 template: |
   ## Whats changed
