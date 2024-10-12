@@ -5,7 +5,11 @@ on:
     branches:
       - master
   pull_request:
-    types: [opened, reopened, syncronize]
+    branches: 
+      - master
+    types: 
+      - opened
+      - reopened
 
 permissions:
   contents: read
