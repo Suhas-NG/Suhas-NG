@@ -3,6 +3,7 @@ replacers:
     replace: '[PC-$1](https://jira.ftscc.net/browse/PC-$1) '
   - search: '/ER-(\d+)/g'
     replace: '[ER-$1](https://jira.ftscc.net/browse/PC-$1) '
+commitish: master
 filter-by-commitish: true
 change-template: "* $TITLE (#$NUMBER)"
 template: |
